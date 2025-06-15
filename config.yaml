@@ -6,6 +6,9 @@
 # windows only - you can use a device's full name, i.e. "Speakers (Realtek High Definition Audio)", to bind it. this works for both output and input devices
 # windows only - you can use 'system' to control the "system sounds" volume
 # important: slider indexes start at 0, regardless of which analog pins you're using!
+
+# Slider mapping = DMX Mapping; Remember, DMX Channel 1 is Slider "number" 0! CH2=1, .., CH512=511
+
 slider_mapping:
   0: master
   1: chrome.exe
